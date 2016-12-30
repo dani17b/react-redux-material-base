@@ -1,0 +1,52 @@
+{
+  "name": "react-redux-material-base",
+  "version": "0.0.1",
+  "description": "React and Redux base application with material components dependencies",
+  "main": "server.js",
+  "dependencies": {
+    "classnames": "*",
+    "react": "15.4.1",
+    "react-redux": "5.0.1",
+    "redux": "3.6.0",
+    "react-fontawesome" : "*",
+    "react-router" : "*",
+    "react-router-redux" : "*",
+    "react-dom" : "15.4.1",
+    "redux-thunk" : "2.1.0",
+    "react-toolbox" : "1.3.3",
+    "immutability-helper" : "2.0.0",
+    "sass" : "0.5.0",
+    "react-addons-css-transition-group" : "15.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-react": "6.16.0",
+    "babel-plugin-transform-decorators-legacy" : "1.3.4",
+    "html-webpack-plugin": "^1.6.1",
+    "react-hot-loader": "3.0.0-beta.6",
+    "sass-loader" : "4.1.0",
+    "node-sass" : "4.1.0",
+    "style-loader": "^0.12.3",
+    "babel-core": "6.20.0",
+    "babel-loader": "6.2.9",
+    "babel-runtime" : "6.20.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2",
+    "babel-preset-es2015" : "6.18.0",
+    "babel-preset-stage-0": "6.16.0",
+    "css-loader": "0.26.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dani17b/react-redux-material-base.git"
+  },
+  "author": "Daniel Turiño <daniel.anido17@gmail.com>",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/dani17b/react-redux-material-base/issues"
+  },
+  "homepage": "https://github.com/dani17b/react-redux-material-base"
+}
