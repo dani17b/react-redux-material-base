@@ -1,5 +1,5 @@
 import * as types from '../../../constants/ActionTypes';
-import {browserHistory} from 'react-router';
+import {push} from 'react-router-redux';
 
 export function loginUserPassRequest(userPass) {
   return {
@@ -31,6 +31,6 @@ export function loginApiUserPass(userPass){
 
     // Replace this code with commented
     dispatch(loginUserPassResponse({loginInfo : "token"}));
-    browserHistory.push('/home');
+    dispatch(push('/home'));
   }
 }

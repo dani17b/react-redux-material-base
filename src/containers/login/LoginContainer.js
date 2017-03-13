@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import styles from './loginContainer.css';
 import * as LoginActions from './actions/LoginActions';
-import {browserHistory} from 'react-router';
 import Input from 'react-toolbox/lib/input';
 import Button from 'react-toolbox/lib/button';
 
